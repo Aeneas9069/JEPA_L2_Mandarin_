@@ -1,0 +1,15 @@
+# Ignore raw data and heavy outputs
+data/raw_audio/
+data/mfa_aligned/
+data/processed_vowels/
+data/praat_continua/
+*.npy
+*.csv
+
+# Ignore Python environments and cache
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+.conda/
